@@ -1,0 +1,14 @@
+//MAIN.SCSS Archivo manifiesto
+// EL ORDEN ES IMPORTANTE
+@import "abstract/mixins";
+@import "abstract/variables";
+//VENDORS
+//BASE
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+//LAYOUT
+//COMPONENTS
+@import "components/buttons"; 
+//PAGES
+//THEME
