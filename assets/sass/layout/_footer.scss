@@ -1,0 +1,9 @@
+.footer{
+    background-color: $eerie-black;
+    display: flex;
+    justify-content: center;
+    &__img{
+        height: 4rem;
+        margin: 2rem 0;
+    }
+}

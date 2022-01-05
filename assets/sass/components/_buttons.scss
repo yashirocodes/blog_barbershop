@@ -1,0 +1,19 @@
+.share{
+    display: flex;
+    cursor: pointer;
+    &__button{
+        border: none;
+        border-radius: 3rem;
+        background-color: $nickel ;
+        color: $white;
+        padding: 0.5rem 3rem;
+        margin: 1rem;
+        transition: all 200ms ease-in-out;
+        &:hover{
+            background-color: $platinium;
+        }
+        &-focus:focus{
+            border: 0.1rem solid $platinium;
+        }
+    }
+}
