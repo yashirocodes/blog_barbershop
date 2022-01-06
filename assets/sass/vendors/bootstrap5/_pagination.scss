@@ -22,10 +22,9 @@
 
   &:focus {
     z-index: 3;
-    color: $pagination-focus-color;
-    background-color: $pagination-focus-bg;
+    color: $eerie-black;
+    background-color: $fuzzy-wuzzy;
     outline: $pagination-focus-outline;
-    box-shadow: $pagination-focus-box-shadow;
   }
 }
 
@@ -36,7 +35,7 @@
 
   &.active .page-link {
     z-index: 3;
-    color: $pagination-active-color;
+    color: $raisin-black;
     @include gradient-bg($pagination-active-bg);
     border-color: $pagination-active-border-color;
   }
@@ -49,16 +48,30 @@
   }
 }
 
-
 //
 // Sizing
 //
-@include pagination-size($pagination-padding-y, $pagination-padding-x, null, $pagination-border-radius);
+@include pagination-size(
+  $pagination-padding-y,
+  $pagination-padding-x,
+  null,
+  $pagination-border-radius
+);
 
 .pagination-lg {
-  @include pagination-size($pagination-padding-y-lg, $pagination-padding-x-lg, $font-size-lg, $pagination-border-radius-lg);
+  @include pagination-size(
+    $pagination-padding-y-lg,
+    $pagination-padding-x-lg,
+    $font-size-lg,
+    $pagination-border-radius-lg
+  );
 }
 
 .pagination-sm {
-  @include pagination-size($pagination-padding-y-sm, $pagination-padding-x-sm, $font-size-sm, $pagination-border-radius-sm);
+  @include pagination-size(
+    $pagination-padding-y-sm,
+    $pagination-padding-x-sm,
+    $font-size-sm,
+    $pagination-border-radius-sm
+  );
 }

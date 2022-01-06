@@ -1,0 +1,35 @@
+//INICIO DE LINKS
+/*lINKS COMPONENT STYLES*/
+//PRIMARY
+.page-link-primary {
+  @include link-family;
+  color: $ruddy-pink;
+  &:hover {
+    color: $raisin-black;
+  }
+  &-active:active {
+    color: $light-gray;
+  }
+}
+//SECONDARY
+.page-link-secondary {
+  @include link-family;
+  color: $eerie-black;
+  &:hover {
+    color: $raisin-black;
+  }
+  &-active:active {
+    color: $light-gray;
+  }
+}
+//light
+.page-link-light {
+  @include link-family;
+  color: $light-gray;
+  &:hover {
+    color: $platinium;
+  }
+  &-active:active {
+    color: $light-gray;
+  }
+}

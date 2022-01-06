@@ -1,4 +1,11 @@
 @mixin flex-content {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+//LINK MIXINS
+@mixin link-family {
+  font-family: $roboto;
+  font-size: $large;
+  font-weight: $light;
+  text-decoration: none;
 }
