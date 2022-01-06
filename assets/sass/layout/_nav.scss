@@ -1,7 +1,14 @@
-.navbar-img{
-    height: 3rem;
+//NAV START
+.navbar-img {
+  height: 3rem;
 }
-.navbar{
-    background-color: $eerie-black;
-    font-family: $roboto;
+.navbar {
+  background-color: $eerie-black;
+  font-family: $roboto;
 }
+//NAV END
+
+/*
+ELEMENTOS COMO LINKS DEL NAVBAR FUERON MODIFICADOS EN LA BASE DEL FRAMEWORK BOOSTRAP .
+    CAMBIOS : BG-COLOR : BLACK , A : WHITE A :ACTIVE, FOCUS STATES ORANGE . BURGER TOGGLE WHITE .
+*/

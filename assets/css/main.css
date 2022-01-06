@@ -1,4 +1,8 @@
 @charset "UTF-8";
+/*COLOR SCHEMES FOR BLOG BARBERSHOP*/
+/*FIST COLOR SCHEME*/
+/*SECOND COLOR SCHEME*/
+/*THIRD COLOR SCHEME*/
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -10762,6 +10766,11 @@ ul {
   margin: 0;
 }
 
+/*TYPOGRAFY*/
+/*TYPERFACES*/
+/*WEIGHT*/
+/*SIZE*/
+/*TEXT SHADOW*/
 .navbar-img {
   height: 3rem;
 }
@@ -10771,6 +10780,11 @@ ul {
   font-family: "Roboto", sans-serif;
 }
 
+/*
+ELEMENTOS COMO LINKS DEL NAVBAR FUERON MODIFICADOS EN LA BASE DEL FRAMEWORK BOOSTRAP .
+    CAMBIOS : BG-COLOR : BLACK , A : WHITE A :ACTIVE, FOCUS STATES ORANGE . BURGER TOGGLE WHITE .
+*/
+/*HEADER START*/
 .hero-section {
   margin: 0;
   padding: 0;
@@ -10803,6 +10817,8 @@ ul {
   color: #e56353;
 }
 
+/*HEADER END*/
+/*MAIN START*/
 .main {
   font-family: "Roboto", sans-serif;
 }
@@ -10813,14 +10829,8 @@ ul {
   line-height: 2rem;
   margin: 2rem 0;
 }
-.main__link {
-  color: #e56353;
-  text-decoration: none;
-}
-.main__link:hover {
-  color: #ecbcba;
-}
 
+/*MAIN END*/
 .author {
   border-top: 2px solid #d1d1d1;
 }
@@ -10849,6 +10859,10 @@ ul {
   padding: 3.5rem 0;
 }
 
+/*
+Se cambiaron desde el archivo _pagination de bootstrap colores de borde, color de texto y estados del botones en active, hover etc... 
+*/
+/*FOOTER START*/
 .footer {
   background-color: #121619;
   display: flex;
@@ -10859,6 +10873,9 @@ ul {
   margin: 2rem 0;
 }
 
+/*FOOTER END*/
+/*bUTTONS*/
+/*NORMAL AND FLEXIBLE */
 .share {
   display: flex;
   align-items: center;
@@ -10881,6 +10898,32 @@ ul {
   background-color: #e6e7e7;
 }
 .share__button-focus:focus {
+  box-shadow: 0px 0px 2px 5px #d1d1d1;
+}
+
+/*LITTLE BUTTON*/
+.share-small {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 4.5rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.share-small__button {
+  border: none;
+  border-radius: 5rem;
+  background-color: #6c6e70;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  transition: all 100ms ease-in-out;
+}
+.share-small__button:hover {
+  background-color: #e6e7e7;
+}
+.share-small__button-focus:focus {
   box-shadow: 0px 0px 2px 5px #d1d1d1;
 }
 

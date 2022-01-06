@@ -1,8 +1,35 @@
+/*bUTTONS*/
+//STANDAR BUTTON
+/*NORMAL AND FLEXIBLE */
 .share {
   display: flex;
   align-items: center;
   cursor: pointer;
   height: 5rem;
+  @include style-reset;
+  &__button {
+    border: none;
+    border-radius: 5rem;
+    background-color: $nickel;
+    color: $white;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    transition: all 100ms ease-in-out;
+    &:hover {
+      background-color: $platinium;
+    }
+    &-focus:focus {
+      box-shadow: 0px 0px 2px 5px $light-gray;
+    }
+  }
+}
+
+/*LITTLE BUTTON*/
+.share-small {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 4.5rem;
   @include style-reset;
   &__button {
     border: none;

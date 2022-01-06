@@ -1,19 +1,12 @@
-
-.main{
-    font-family: $roboto;
-    &__date{
-        padding-top: 2rem;
-    }
-    &__parragraph{
-        line-height: 2rem;
-        margin: 2rem 0;   
-    }
-    &__link{
-        color: $fuzzy-wuzzy;
-        text-decoration: none;
-    }
-    &__link:hover{
-            color: $spanish-pink; 
-    }
-    
+/*MAIN START*/
+.main {
+  font-family: $roboto;
+  &__date {
+    padding-top: 2rem;
+  }
+  &__parragraph {
+    line-height: 2rem;
+    margin: 2rem 0;
+  }
 }
+/*MAIN END*/

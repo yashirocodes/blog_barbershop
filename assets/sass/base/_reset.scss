@@ -1,8 +1,11 @@
+//GENERAL RESET FOR CSS CONTENT 
+//GENERAL RESET
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+//SPECIFIC ELEMENT RESET
 h1 {
   margin: 0;
 }
@@ -12,8 +15,4 @@ p {
 ul {
   margin: 0;
 }
-@mixin style-reset {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
